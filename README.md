@@ -7,7 +7,7 @@
 
 ### Aihe II: Aurinkopaneelit Mittausdata
 
-[Kaggle: Solar Panel PV System Dataset](https://www.kaggle.com/datasets/arnavsharmaas/solar-panel-pv-system-dataset)
-
+[Dataset: Solar Panel PV System Dataset](https://www.kaggle.com/datasets/arnavsharmaas/solar-panel-pv-system-dataset)
+[Info: Solar Panel PV System Dataset](https://emp.lbl.gov/tracking-the-sun)
 Lisenssi: Attribution 3.0 Unported
 
