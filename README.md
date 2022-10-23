@@ -19,3 +19,7 @@ Lisenssi: Attribution 3.0 Unported
 ### Datan visualisointi
 
 [Tehtävät 1b - 2](https://gitlab.labranet.jamk.fi/P1380/aida-projekti-group2/-/blob/main/Solar-dataset-group2.ipynb)
+
+### Datan esikäsittely
+
+[Tehtävä 3: Datan esikäsittely](https://gitlab.labranet.jamk.fi/P1380/aida-projekti-group2/-/blob/main/datan_esikasittely.ipynb)
