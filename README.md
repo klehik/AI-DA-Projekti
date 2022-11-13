@@ -3,7 +3,7 @@
 ## Tekijät:
     - Atte Alpia, P1380
     - Kalle Lehikoinen, AA4085
-    - Patrick Terranova, AB5211
+
 
 ### Aihe II: Aurinkopaneelit Mittausdata
 
