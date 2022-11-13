@@ -23,3 +23,7 @@ Lisenssi: Attribution 3.0 Unported
 ### Datan esikäsittely
 
 [Tehtävä 3: Datan esikäsittely](https://gitlab.labranet.jamk.fi/P1380/aida-projekti-group2/-/blob/main/datan_esikasittely.ipynb)
+
+### Koneoppimisen ja syväoppimisen toteutus
+
+[Tehtävä 4: koneoppimisen ja syväoppimisen toteutus](https://gitlab.labranet.jamk.fi/P1380/aida-projekti-group2/-/blob/main/koneoppiminen.ipynb)
