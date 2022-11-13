@@ -26,4 +26,4 @@ Lisenssi: Attribution 3.0 Unported
 
 ### Koneoppimisen ja syväoppimisen toteutus
 
-[Tehtävä 4: koneoppimisen ja syväoppimisen toteutus](https://gitlab.labranet.jamk.fi/P1380/aida-projekti-group2/-/blob/main/koneoppiminen.ipynb)
+[Tehtävä 4: koneoppimisen ja syväoppimisen toteutus](https://gitlab.labranet.jamk.fi/P1380/aida-projekti-group2/-/blob/main/Koneoppiminen.ipynb)
