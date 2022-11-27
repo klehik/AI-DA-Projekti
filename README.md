@@ -30,4 +30,4 @@ Lisenssi: Attribution 3.0 Unported
 
 ### Tulosten analysointi
 
-[Tehtävä 5: Tulosten analysointi](https://gitlab.labranet.jamk.fi/P1380/aida-projekti-group2/-/blob/main/testit/atte-testi-analyysi.ipynb)
+[Tehtävä 5: Tulosten analysointi](https://gitlab.labranet.jamk.fi/P1380/aida-projekti-group2/-/blob/main/Analyysi.ipynb)
