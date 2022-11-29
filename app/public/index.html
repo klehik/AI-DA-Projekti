@@ -1,0 +1,56 @@
+<form id="form">
+    <label for="module_quantity">Module quantity: </label>
+    <input
+      id="module_quantity"
+      type="number"
+      name="mq_field"
+      value="" />
+      <label for="system_size">System size DC: </label>
+      <input
+      id="system_size"
+      type="number"
+      name="ss_field"
+      value="" />
+      <label for="inverter">Inverter total capacity: </label>
+      <input
+      id="inverter"
+      type="number"
+      name="inv_field"
+      value="" />
+     
+
+
+
+    <input type="submit" value="OK" />
+
+
+  </form>
+
+  <div id="result">
+    
+  </div>
+  <script>
+
+   
+      
+    document.getElementById('form').onsubmit = (event) => {
+        event.preventDefault();
+        
+        fetch('/', {
+          method: 'POST',
+          body: new URLSearchParams(new FormData(event.target)) // event.target is the form
+            })
+        .then(response =>  response.json()
+        .then(json =>{
+            if (json.status === 200){
+                document.getElementById('result').innerText = json.pred
+                
+          }
+      })
+        
+      ).catch((error) => {
+         
+      });
+    }
+    
+</script>
