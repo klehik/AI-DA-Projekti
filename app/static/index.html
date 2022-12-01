@@ -1,16 +1,32 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<title>Predict</title>
+<meta charset="utf-8">
+</head>
+
 <form id="form">
-    <label for="system_size_DC">system_size_DC: </label>
-    <input
-      id="system_size_DC"
-      type="number"
-      name="size_field"
-      value="" />
+      <label for="installation_year">installation_year: </label>
+      <input
+        id="installation_year"
+        type="number"
+        name="year_field"
+        value="" />
+
+      <label for="system_size_DC">system_size_DC: </label>
+      <input
+        id="system_size_DC"
+        type="number"
+        name="size_field"
+        value="" />
+
       <label for="module_quantity">module_quantity: </label>
       <input
       id="module_quantity"
       type="number"
       name="mq_field"
       value="" />
+
       <label for="inverter_total_capacity">inverter_total_capacity: </label>
       <input
       id="inverter_total_capacity"
@@ -21,13 +37,15 @@
 
 
 
-    <input type="submit" value="OK" />
+    <input type="submit" value="Predict" />
 
 
   </form>
-
-  <div id="result">
+  <div style="font-size: 25px"> <p>Dataset mean price: 24670 $</p></div>
+  <div id="result" style="font-size: 40px;">
     
   </div>
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
   <script src="predict.js"></script>
+
+</html>
