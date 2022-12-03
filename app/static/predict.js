@@ -12,13 +12,12 @@ function displayLoading() {
     
 }
 
-// hiding loading 
 function hideLoading() {
     document.getElementById('result').innerHTML = ""
 }
 
     
-document.getElementById('form').onsubmit = (event) => {
+document.getElementById('form').onsubmit = async (event) => {
     event.preventDefault();
     year = parseFloat(event.target.year_field.value)
     systemSize = parseFloat(event.target.size_field.value)
@@ -38,11 +37,11 @@ document.getElementById('form').onsubmit = (event) => {
     values = [year, systemSize, 0, 92029, 0, 3433, 0, 131, 2116, inverterLoadingRatio, moduleQuantity, 0.2, 360, 25, inverterCapacity]
     
     displayLoading()
-    let body = JSON.stringify(values)
 
+    let body = JSON.stringify(values)
     fetch('/', {
         method:"post", 
-        body:body,
+        body: body,
         headers: {
             'Content-Type': 'application/json'
           },

@@ -6,11 +6,8 @@ const spawn = require('child_process').spawn;
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false}))
-
-
-
-
 app.use(express.static('./static'))
+
 
 app.post('/',(req,res) => {
     let values = req.body
@@ -26,7 +23,11 @@ app.post('/',(req,res) => {
          pred = data.toString()
          
      })
-      
+     // error
+     python.stderr.on('data', (data) => {
+      console.error(`stderr: ${data}`);
+    });
+
      // suljetaan prosessi
      python.on('close', (code) => {
          console.log(`Python script executed with code: ${code}`);
