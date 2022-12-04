@@ -31,3 +31,7 @@ Lisenssi: Attribution 3.0 Unported
 ### Tulosten analysointi
 
 [Tehtävä 5: Tulosten analysointi](https://gitlab.labranet.jamk.fi/P1380/aida-projekti-group2/-/blob/main/Analyysi.ipynb)
+
+### Malli tuotantoon
+
+[Tehtävä 6: Malli tuotantoon](https://gitlab.labranet.jamk.fi/P1380/aida-projekti-group2/-/blob/main/malli_tuotantoon.ipynb)
