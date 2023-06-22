@@ -359,3 +359,4 @@ fabric.properties
 /tensor_reg.ipynb
 
 node_modules/
+/data
