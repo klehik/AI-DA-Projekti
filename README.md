@@ -25,7 +25,7 @@
 
 [Tehtävä 4: Koneoppimisen ja syväoppimisen toteutus](https://github.com/klehik/AI-DA-Projekti/blob/main/Koneoppiminen.ipynb)
 
-### Tulosten analysointi
+### Tulosten optimointi ja analysointi
 
 [Tehtävä 5: Tulosten analysointi](https://github.com/klehik/AI-DA-Projekti/blob/main/Analyysi.ipynb)
 
